@@ -1,0 +1,15 @@
+#featuredPages div.clearfix { 
+	text-align: center; 
+}
+#featuredPages .page.small { 
+	float: none; 
+	display: inline-block; 
+}
+
+#connect div.clearfix { 
+	text-align: center; 
+}
+#connect .my-icon { 
+	float: none; 
+	display: inline-block; 
+}

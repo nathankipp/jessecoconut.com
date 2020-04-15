@@ -1,0 +1,135 @@
+html,
+body {
+	background-color: #EFEFEF;
+	color: #222222;
+	font-family: 'Nunito Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,div,span,a {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.top-bar {
+	background-color: white;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.jk-signature {
+	height: 2.5rem;
+	padding: 0 0 0 1rem;
+}
+
+.top-bar .menu {
+	background-color: white;
+}
+
+.top-bar-right {
+	padding-right: 1rem;
+}
+
+li {
+	text-align: center;
+}
+
+li a {
+	color: black;
+}
+
+.jk-my-photo {
+	border-radius: 50%;
+	border: 2px solid white;
+	height: 300px;
+}
+
+.jk-my-photo-bg {
+	background: url(../img/websiteHEADER.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1.125rem 0;
+}
+
+.jk-main-content {
+	padding: 0 0.625rem;
+}
+
+h2 {
+	border-top: 1px solid #E0E0E0;
+	color: #444444;
+	padding-top: 0.625rem;
+}
+
+h3 {
+	color: #BBBBBB;
+	font-size: 1.125rem;
+	margin-bottom: 0.25rem;
+}
+
+h4 {
+	font-size: 1.375rem;
+	font-weight: 200;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+h5 {
+	color: #222222;
+	font-size: 0.875rem;
+	text-align: center;
+}
+
+.responsive-embed.widescreen,
+.jk-modal-content {
+	margin: 2rem 0;
+}
+
+.jk-image-link {
+	margin-bottom: 0.125rem;
+}
+
+a img:not(.jk-signature) {
+	border: 1px solid #E0E0E0;
+}
+a img:not(.jk-signature):hover {
+	border: 1px solid #E0E0E0;
+	opacity: 0.85;
+}
+
+.jk-description {
+	margin-bottom: 1.375rem;
+}
+
+.slick-slide {
+	outline: none;
+}
+
+.js-slick div {
+	padding: 0 1.125rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: #222222;
+}
+
+.jk-icon {
+	height: 1.5rem;
+}
+
+.jk-copyright {
+	font-size: 0.625rem;
+}
+
+@media screen and (min-width: 40em) {
+	.jk-icon {
+		height: 2rem;
+	}
+
+	.jk-my-photo {
+		height: auto;
+	}
+
+	.jk-description {
+		margin-bottom: 1.125rem;
+	}
+}
