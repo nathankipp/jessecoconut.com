@@ -4,6 +4,11 @@ body {
 	color: #222222;
 	font-family: 'Nunito Sans', sans-serif;
 }
+.jk-limit {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
 h1,h2,h3,h4,h5,h6,
 p,div,span,a {
 	font-family: 'Nunito Sans', sans-serif;
@@ -48,9 +53,9 @@ li a {
 	padding: 1.125rem 0;
 }
 
-.jk-main-content {
+/* .jk-main-content {
 	padding: 0 0.625rem;
-}
+} */
 
 h2 {
 	border-top: 1px solid #E0E0E0;
@@ -87,10 +92,10 @@ h5 {
 	margin-bottom: 0.125rem;
 }
 
-a img:not(.jk-signature) {
+a img:not(.jk-icon):not(.jk-signature) {
 	border: 1px solid #E0E0E0;
 }
-a img:not(.jk-signature):hover {
+a img:not(.jk-icon):not(.jk-signature):hover {
 	border: 1px solid #E0E0E0;
 	opacity: 0.85;
 }
@@ -113,6 +118,7 @@ a img:not(.jk-signature):hover {
 }
 
 .jk-icon {
+	border: none;
 	height: 1.5rem;
 }
 
