@@ -1,4 +1,4 @@
 # jessecoconut
 My brother's website
 
-hi jesse
+hi jesse, you're a dork
