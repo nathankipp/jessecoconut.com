@@ -4,6 +4,7 @@ body {
 	color: #222222;
 	font-family: 'Nunito Sans', sans-serif;
 }
+
 .jk-limit {
 	margin: 0 auto;
 	max-width: 1200px;
@@ -12,6 +13,30 @@ body {
 h1,h2,h3,h4,h5,h6,
 p,div,span,a {
 	font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+	color: #444444;
+}
+
+h5 {
+	color: #BBBBBB;
+}
+
+.jk-dots {
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+section {
+	border-top: 1px solid #E0E0E0;
+	margin-top: .625rem;
+	padding-top: 1.5rem;
+}
+
+img {
+	margin-bottom: 0.625rem;
 }
 
 .top-bar {
@@ -57,39 +82,10 @@ li a {
 	padding: 0 0.625rem;
 } */
 
-h2 {
-	border-top: 1px solid #E0E0E0;
-	color: #444444;
-	padding-top: 0.625rem;
-}
-
-h3 {
-	color: #BBBBBB;
-	font-size: 1.125rem;
-	margin-bottom: 0.25rem;
-}
-
-h4 {
-	font-size: 1.375rem;
-	font-weight: 200;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
-h5 {
-	color: #222222;
-	font-size: 0.875rem;
-	text-align: center;
-}
 
 .responsive-embed.widescreen,
 .jk-modal-content {
 	margin: 2rem 0;
-}
-
-.jk-image-link {
-	margin-bottom: 0.125rem;
 }
 
 a img:not(.jk-icon):not(.jk-signature) {
