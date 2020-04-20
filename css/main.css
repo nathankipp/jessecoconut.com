@@ -12,30 +12,27 @@ body {
 }
 
 .jk-vid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: black;
 	max-height:400px;
 	min-height: 400px;
 	overflow:hidden;
 	position:relative;
 }
-.jk-vid video {
-	align-items:center;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-}
 
 .jk-vid-sig {
 	color: white;
-	font-size: 1.25rem;
 	left:50%;
 	position:absolute;
 	text-align: center;
-	top:100;
+	top:100px;
 	transform:translateX(-50%);
 }
 
 .jk-tagline {
+	font-size: 1.25rem;
 	margin-top: -1.25rem;
 }
 
