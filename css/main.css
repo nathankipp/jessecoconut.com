@@ -14,14 +14,17 @@ body {
 .jk-vid {
 	align-items:center;
 	background-color: black;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
 	max-height:400px;
 	min-height: 400px;
 	overflow:hidden;
 	position:relative;
 }
+.jk-vid video {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
 .jk-vid-sig {
 	color: white;
 	left:50%;
