@@ -1,4 +1,3 @@
 # jessecoconut
-My brother's website
-
-hi jesse, you're a tool
+My brother's website  
+[jessecoconut.com](https://jessecoconut.com)
