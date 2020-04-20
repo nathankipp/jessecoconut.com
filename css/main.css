@@ -1,8 +1,34 @@
 html,
 body {
-	background-color: #EFEFEF;
+	background-color: black;
 	color: #222222;
 	font-family: 'Nunito Sans', sans-serif;
+}
+
+.jk-max {
+	background-color: #EFEFEF;
+	margin: 0 auto;
+	max-width: 1920px;
+}
+
+.jk-vid {
+	align-items:center;
+	background-color: black;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	max-height:400px;
+	min-height: 400px;
+	overflow:hidden;
+	position:relative;
+}
+.jk-vid-sig {
+	color: white;
+	left:50%;
+	position:absolute;
+	text-align: center;
+	top:100;
+	transform:translateX(-50%);
 }
 
 .jk-limit {
@@ -72,9 +98,9 @@ li a {
 }
 
 .jk-my-photo-bg {
-	background: url(../img/websiteHEADER.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background: url(../img/websiteHEADER.png);
 	padding: 1.125rem 0;
 }
 
