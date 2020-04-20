@@ -12,7 +12,6 @@ body {
 }
 
 .jk-vid {
-	align-items:center;
 	background-color: black;
 	max-height:400px;
 	min-height: 400px;
@@ -20,6 +19,7 @@ body {
 	position:relative;
 }
 .jk-vid video {
+	align-items:center;
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
