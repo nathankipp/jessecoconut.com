@@ -27,11 +27,16 @@ body {
 
 .jk-vid-sig {
 	color: white;
+	font-size: 1.25rem;
 	left:50%;
 	position:absolute;
 	text-align: center;
 	top:100;
 	transform:translateX(-50%);
+}
+
+.jk-tagline {
+	margin-top: -1.25rem;
 }
 
 .jk-limit {
